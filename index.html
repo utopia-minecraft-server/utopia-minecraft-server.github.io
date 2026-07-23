@@ -11,99 +11,64 @@
         <div class="container">
             <div class="logo">UtopiaSMP</div>
             <ul class="nav-links">
-                <li><a href="#главная">Главная</a></li>
-                <li><a href="#информация">Информация</a></li>
-                <li><a href="#сервер">На сервере</a></li>
-                <li><a href="#новости">Новости</a></li>
-                <li><a href="#контакты">Контакты</a></li>
+                <li><a href="index.html" class="active">Главная</a></li>
+                <li><a href="vanilla.html">Ванила</a></li>
+                <li><a href="grief.html">Гриф</a></li>
+                <li><a href="builds.html">Постройки</a></li>
+                <li><a href="clans.html">Кланы</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
             </ul>
         </div>
     </nav>
 
-    <header class="hero" id="главная">
-        <div class="hero-content">
-            <h1>Добро пожаловать на UtopiaSMP! 👋</h1>
-            <p>Сервер Minecraft 1.20.1 | Ванила + Гриф</p>
-            <div class="ip-section">
-                <h2>IP Адреса:</h2>
-                <div class="ip-box">
-                    <p><strong>Ванила & Гриф:</strong> Utopiavanila.proximamp.com (1.20.1)</p>
-                    <p><strong>Альтернативный:</strong> Ytopiacraft.proximamp.com (1.20.1)</p>
+    <header class="hero">
+        <div class="container">
+            <h1>UtopiaSMP</h1>
+            <p>Сервер Minecraft 1.20.1</p>
+            <div class="servers-grid">
+                <div class="server-card">
+                    <h2>Ванила</h2>
+                    <p class="server-ip">Utopiavanila.proximamp.com</p>
+                    <p>Обычный сервер без анархии</p>
+                    <a href="vanilla.html" class="btn">Подробнее</a>
+                </div>
+                <div class="server-card">
+                    <h2>Гриф</h2>
+                    <p class="server-ip">Ytopiacraft.proximamp.com</p>
+                    <p>PvP и разрушения разрешены</p>
+                    <a href="grief.html" class="btn">Подробнее</a>
                 </div>
             </div>
         </div>
     </header>
 
     <main class="container">
-        <section class="info-section" id="информация">
-            <h2>📋 Информация о сервере</h2>
+        <section class="info-section">
+            <h2>Информация</h2>
             <div class="info-grid">
-                <div class="info-card">
-                    <h3>⏰ Расписание</h3>
-                    <p><strong>Открытие:</strong> 10:00 - 12:00 МСК</p>
-                    <p><strong>Закрытие:</strong> 22:00 - 23:00 МСК</p>
-                    <p><em>Сервер работает без выходных</em></p>
+                <div class="info-item">
+                    <h3>Версия</h3>
+                    <p>1.20.1</p>
                 </div>
-                <div class="info-card">
-                    <h3>🎮 Версия</h3>
-                    <p>Minecraft 1.20.1</p>
+                <div class="info-item">
+                    <h3>Открытие</h3>
+                    <p>10:00 - 12:00 МСК</p>
                 </div>
-                <div class="info-card">
-                    <h3>✨ Режимы</h3>
-                    <p>Ванила режим</p>
-                    <p>Гриф (PvP) режим</p>
+                <div class="info-item">
+                    <h3>Закрытие</h3>
+                    <p>22:00 - 23:00 МСК</p>
                 </div>
-            </div>
-        </section>
-
-        <section class="server-content" id="сервер">
-            <h2>🏗️ На сервере</h2>
-            <div id="server-content-placeholder" class="placeholder">
-                <p>Загрузка информации о сервере...</p>
-            </div>
-        </section>
-
-        <section class="news-section" id="новости">
-            <h2>📰 Новости</h2>
-            <div id="news-container" class="news-grid">
-                <p>Загрузка новостей...</p>
-            </div>
-        </section>
-
-        <section class="contacts-section" id="контакты">
-            <h2>📞 Контакты & Ссылки</h2>
-            <div class="contacts-grid">
-                <div class="contact-card">
-                    <h3>✈️ Telegram</h3>
-                    <p>Основной канал: <a href="https://t.me/Utopia_vanila" target="_blank">@Utopia_vanila</a></p>
-                    <p>Чат: <a href="https://t.me/UtopiaVanilachat" target="_blank">@UtopiaVanilachat</a></p>
-                </div>
-                <div class="contact-card">
-                    <h3>📞 Discord</h3>
-                    <p><a href="https://discord.gg/W4PbKVH8Xa" target="_blank">Присоединиться к серверу</a></p>
-                </div>
-                <div class="contact-card">
-                    <h3>💙 VK</h3>
-                    <p>Скоро...</p>
-                </div>
-                <div class="contact-card">
-                    <h3>🤖 Поддержка</h3>
-                    <p>Бот: <a href="https://t.me/ytopiacraftrobot" target="_blank">@ytopiacraftrobot</a></p>
-                </div>
-                <div class="contact-card">
-                    <h3>⛔️ Черный список</h3>
-                    <p><a href="https://t.me/liboip" target="_blank">@liboip</a></p>
+                <div class="info-item">
+                    <h3>График</h3>
+                    <p>Без выходных</p>
                 </div>
             </div>
-        </section>
-
-        <section class="footer-note">
-            <p>Приятной игры! ✨</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 UtopiaSMP. Все права защищены.</p>
+        <p>UtopiaSMP 2024</p>
     </footer>
 
     <script src="script.js"></script>
